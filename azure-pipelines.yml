@@ -19,3 +19,4 @@ steps:
     repository: 'app-dotnet'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    tags: '$(Build.BuildNumber)'
