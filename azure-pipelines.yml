@@ -15,7 +15,7 @@ pool:
 steps:  
 - task: Docker@2
   inputs:
-    containerRegistry: 'cu19cr'
+    containerRegistry: 'nc19cr'
     repository: 'app-dotnet'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
